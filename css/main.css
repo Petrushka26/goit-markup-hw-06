@@ -54,7 +54,7 @@ body {
 .logo.studio {
     margin-bottom: 20px;
 }
-.logo .accent {
+.logo__accent {
     color: var(--accent-text-color);
 }
 .container {
@@ -89,7 +89,7 @@ body {
     text-decoration: none;
 }
 
-.nav-cont {
+.header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -158,6 +158,8 @@ body {
     margin-right: 10px;
     fill: currentColor;
 }
+
+
 /* hero */
 
 .hero {
@@ -741,6 +743,7 @@ footer .info {
 }
 .form-ic textarea::placeholder {
     color: rgba(117, 117, 117, 0.5);
+    opacity: 1;
 } 
 .form-button {
     margin-top: 30px;
